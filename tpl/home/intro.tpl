@@ -1,4 +1,4 @@
-<section class="intro">
+<section class="intro bg-red-500">
     <div class="container mt-4">
         <div class="row">
             <div class="col">

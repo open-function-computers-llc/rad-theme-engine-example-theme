@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df436c9f21dd0fc340025b3f7be17eba",
+    "content-hash": "82fcd4bf77527e7a127daaedf6e60836",
     "packages": [
         {
             "name": "jjgrainger/posttypes",
-            "version": "2.1",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jjgrainger/PostTypes.git",
-                "reference": "a87584606e9ef726f7621c1d71a184fdf7282172"
+                "reference": "2f20f628ec44404960df4b1ae5d623397a66aec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jjgrainger/PostTypes/zipball/a87584606e9ef726f7621c1d71a184fdf7282172",
-                "reference": "a87584606e9ef726f7621c1d71a184fdf7282172",
+                "url": "https://api.github.com/repos/jjgrainger/PostTypes/zipball/2f20f628ec44404960df4b1ae5d623397a66aec1",
+                "reference": "2f20f628ec44404960df4b1ae5d623397a66aec1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "8.*",
+                "phpunit/phpunit": "^9.6",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "type": "library",
@@ -40,40 +40,46 @@
             "authors": [
                 {
                     "name": "Joe Grainger",
-                    "email": "hello@jjgrainger.co.uk",
                     "homepage": "https://jjgrainger.co.uk"
                 }
             ],
             "description": "Simple WordPress custom post types.",
-            "homepage": "https://github.com/jjgrainger/posttype",
+            "homepage": "https://posttypes.jjgrainger.co.uk",
+            "keywords": [
+                "post-types",
+                "wordpress"
+            ],
             "support": {
-                "issues": "https://github.com/jjgrainger/PostTypes/issues",
-                "source": "https://github.com/jjgrainger/PostTypes/tree/v2.1"
+                "issues": "https://github.com/jjgrainger/posttypes/issues",
+                "source": "https://github.com/jjgrainger/posttypes"
             },
-            "time": "2020-04-12T13:01:12+00:00"
+            "time": "2024-10-13T17:23:48+00:00"
         },
         {
-            "name": "open-function-computers-llc/better-wordpress",
-            "version": "v1.0.20",
+            "name": "open-function-computers-llc/rad-theme-engine",
+            "version": "v1.0.39",
             "source": {
                 "type": "git",
-                "url": "https://github.com/open-function-computers-llc/better-wordpress.git",
-                "reference": "abbb0aba65597fe5f4713754f205144060aae8db"
+                "url": "https://github.com/open-function-computers-llc/rad-theme-engine.git",
+                "reference": "587358e1af452967fc7a664c10354859b35c8de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-function-computers-llc/better-wordpress/zipball/abbb0aba65597fe5f4713754f205144060aae8db",
-                "reference": "abbb0aba65597fe5f4713754f205144060aae8db",
+                "url": "https://api.github.com/repos/open-function-computers-llc/rad-theme-engine/zipball/587358e1af452967fc7a664c10354859b35c8de0",
+                "reference": "587358e1af452967fc7a664c10354859b35c8de0",
                 "shasum": ""
             },
             "require": {
                 "jjgrainger/posttypes": "^2.1",
-                "php": ">=7.4",
+                "php": ">=8.1",
                 "salesforce/handlebars-php": "^2.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
+            "bin": [
+                "bin/rad"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -91,10 +97,10 @@
                 "wordpress"
             ],
             "support": {
-                "issues": "https://github.com/open-function-computers-llc/better-wordpress/issues",
-                "source": "https://github.com/open-function-computers-llc/better-wordpress/tree/v1.0.20"
+                "issues": "https://github.com/open-function-computers-llc/rad-theme-engine/issues",
+                "source": "https://github.com/open-function-computers-llc/rad-theme-engine/tree/v1.0.39"
             },
-            "time": "2021-09-08T21:26:26+00:00"
+            "time": "2025-06-27T18:09:19+00:00"
         },
         {
             "name": "salesforce/handlebars-php",
@@ -157,10 +163,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

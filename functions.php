@@ -1,16 +1,14 @@
 <?php
-
-# Imports all Composer packages
+# Import all Composer packages
 require __DIR__ . '/vendor/autoload.php';
 
 use ofc\Site;
 
-# Declare a new Site object
-$site = new Site();
-
-# Allow the Site object to be accessed in other files
-function site()
+# Create global accessor for the RAD site instance
+function site(): Site
 {
-    global $site;
-    return $site;
+  return Site::getInstance();
 }
+
+# Initialize the RAD site instance
+add_action('after_setup_theme', 'site');

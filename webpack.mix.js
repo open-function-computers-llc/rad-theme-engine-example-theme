@@ -1,6 +1,8 @@
 let mix = require('laravel-mix');
 
-mix.js('src/js/app.js', 'dist').vue({ version: 2 })
-    .sass('src/scss/app.scss', 'app.css')
+mix.js('src/js/app.js', 'dist')
+    .postCss('src/css/app.css', 'css', [
+        require('@tailwindcss/postcss'),
+    ])
     .setPublicPath('dist')
     .version();

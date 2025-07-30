@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@source '../../tpl/**/*.tpl';
+
+/* Fonts */
+@import url(https://fonts.bunny.net/css?family=asap-condensed:500,600,700,800|roboto:400,400i,500,500i,700,700i,900);
+
+/* Global */
+@import './global.css';
+
+/* Components */
+@import './components/menu.css';
+@import './components/typography.css';
+
+body {
+    --font-sans: 'Roboto', sans-serif;
+    --font-display: 'Asap Condensed', sans-serif;
+}
+
+
+
