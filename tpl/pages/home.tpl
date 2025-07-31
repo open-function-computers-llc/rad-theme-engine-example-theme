@@ -9,8 +9,8 @@
                 From designer brands to local artists, we've got you covered.
             </p>
 
-            <a class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg font-medium flex items-center gap-2"
-                href="{{inventory_page}}">
+            <a class="bg-yellow-500 hover:bg-yellow-600 text-white button"
+                href="{{view_all_url}}">
                 View Inventory {{#assetContents arrow-right.svg}}
             </a>
         </div>
@@ -21,7 +21,7 @@
 
 
     </div>
-    <div class="size-64 bg-red-500 rotate-12 p-4 flex items-center flex-col justify-center text-white rounded-full">
+    <div class="starburst hover:scale-105 transition-all size-64 bg-red-500 rotate-12 p-4 flex items-center flex-col justify-center text-white rounded-full">
         <h1>
             Hey There!
         </h1>
@@ -33,7 +33,7 @@
 </div>
 
 <div class="flex my-6 gap-4 items-stretch">
-    <div class="size-36  bg-blue-500 rounded-lg text-white flex items-center justify-center">
+    <div class="size-36  bg-blue-500 rounded-lg text-white flex items-center justify-center hover:scale-105 transition-all">
         {{#assetContents shirt.svg}}
     </div>
     <div class="flex-1 flex flex-col justify-center px-6 py-6 bg-blue-100 rounded-lg">
@@ -46,12 +46,28 @@
     </div>
 </div>
 
-<div class="pt-6">
-    <div class="flex justify-between items-baseline">
+<div class="my-12">
+    <div class="flex justify-between items-baseline mb-6">
         <h1>New Arrivals</h1>
-        <a class="flex items-center gap-2" href="{{inventory_page}}">
+        <a class="flex items-center gap-2" href="{{view_all_url}}">
             View All {{#assetContents arrow-right.svg}}
         </a>
     </div>
-   
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {{#each products}}
+        {{> partials/shirt_grid_item}}
+        {{/each}}
+    </div>
+
+</div>
+
+<div class="my-12">
+    <div class=" mb-6">
+        <h1>Browse by Color</h1>
+
+    </div>
+
+    {{#colorTaxonomyFilters partials/filter_pills_big}}
+
 </div>

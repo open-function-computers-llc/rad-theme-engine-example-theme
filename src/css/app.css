@@ -9,8 +9,9 @@
 @import './global.css';
 
 /* Components */
-@import './components/menu.css';
 @import './components/typography.css';
+@import './components/starburst.css';
+@import './components/button.css';
 
 body {
     --font-sans: 'Roboto', sans-serif;
