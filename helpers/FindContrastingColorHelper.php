@@ -2,9 +2,13 @@
 
 namespace Helpers;
 
-class Color
+class FindContrastingColorHelper
 {
-    public static function findContrastingColor()
+
+    /**
+     * Your helper callback.
+     */
+    public static function callback()
     {
         return function ($template, $context, $args, $source) {
             $color = $context->get($args);
