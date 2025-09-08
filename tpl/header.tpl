@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{#wp-title}}</title>
 
+    <link rel="icon" href="{{#assetURL shirt-purple.svg}}">
+
     {{#wp-header}}
 </head>
 
