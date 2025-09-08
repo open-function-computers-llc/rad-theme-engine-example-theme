@@ -2,9 +2,9 @@
 
 namespace Helpers;
 
-class DateFormatter
+class FormatDateHelper
 {
-    public static function monthDayYear()
+    public static function callback()
     {
         return function ($template, $context, $args, $source) {
             $dateString = strtotime($context->get($args));

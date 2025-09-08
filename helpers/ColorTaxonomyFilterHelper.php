@@ -2,9 +2,9 @@
 
 namespace Helpers;
 
-class ColorTaxonomy
+class ColorTaxonomyFilterHelper
 {
-    public static function colorTaxonomyFilters()
+    public static function callback()
     {
         return function ($template, $context, $args, $source) {
 

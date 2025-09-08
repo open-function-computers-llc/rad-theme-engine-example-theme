@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7031d1c5c86d31e898883f2ebb64d31c",
+    "content-hash": "82fcd4bf77527e7a127daaedf6e60836",
     "packages": [
         {
             "name": "jjgrainger/posttypes",
@@ -57,16 +57,16 @@
         },
         {
             "name": "open-function-computers-llc/rad-theme-engine",
-            "version": "dev-feature-additional-commands",
+            "version": "v1.0.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-function-computers-llc/rad-theme-engine.git",
-                "reference": "d6940b43dddb13afc2291c9f4ef866f9cff20667"
+                "reference": "587358e1af452967fc7a664c10354859b35c8de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-function-computers-llc/rad-theme-engine/zipball/d6940b43dddb13afc2291c9f4ef866f9cff20667",
-                "reference": "d6940b43dddb13afc2291c9f4ef866f9cff20667",
+                "url": "https://api.github.com/repos/open-function-computers-llc/rad-theme-engine/zipball/587358e1af452967fc7a664c10354859b35c8de0",
+                "reference": "587358e1af452967fc7a664c10354859b35c8de0",
                 "shasum": ""
             },
             "require": {
@@ -98,9 +98,9 @@
             ],
             "support": {
                 "issues": "https://github.com/open-function-computers-llc/rad-theme-engine/issues",
-                "source": "https://github.com/open-function-computers-llc/rad-theme-engine/tree/feature-additional-commands"
+                "source": "https://github.com/open-function-computers-llc/rad-theme-engine/tree/v1.0.39"
             },
-            "time": "2025-09-05T18:59:21+00:00"
+            "time": "2025-06-27T18:09:19+00:00"
         },
         {
             "name": "salesforce/handlebars-php",
@@ -163,9 +163,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "open-function-computers-llc/rad-theme-engine": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

@@ -2,7 +2,7 @@
     "name": "open-function-computers-llc/rad-theme-engine-example-theme",
     "description": "An example theme for the RAD Theme Engine",
     "require": {
-        "open-function-computers-llc/rad-theme-engine": "dev-feature-additional-commands"
+        "open-function-computers-llc/rad-theme-engine": "^1.0"
     },
     "autoload": {
         "psr-4": {

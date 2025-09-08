@@ -69,12 +69,8 @@ return [
      */
     "handlebars" => [
         "additional-helpers" => [
-            "formatDate" => \Helpers\DateFormatter::monthDayYear(),
-            // "findContrastingColor" => \Helpers\Color::findContrastingColor(),
-            "colorTaxonomyFilters" => \Helpers\ColorTaxonomy::colorTaxonomyFilters(),
-        
-
-        
+            "formatDate" => \Helpers\FormatDateHelper::callback(),
+            "colorTaxonomyFilters" => \Helpers\ColorTaxonomyFilterHelper::callback(),
             "findContrastingColor" => \Helpers\FindContrastingColorHelper::callback(),
         ],
     ],
