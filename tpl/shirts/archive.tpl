@@ -7,3 +7,9 @@
     {{> partials/shirt_grid_item}}
     {{/each}}
 </div>
+
+<div class="text-center text-neutral-500 py-12">
+    <div class="">Page {{#paginationIndex}} of {{#paginationCount}}</div>
+    <div class="mt-4">{{#paginationLinks}}</div>
+</div>
+

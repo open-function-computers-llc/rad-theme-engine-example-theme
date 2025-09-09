@@ -12,7 +12,8 @@ __RAD Theme Engine__ concepts this theme demonstrates:
 - Custom taxonomies (_[docs](https://rad-theme-engine.ofco.cloud/docs/configuration/custom-post-types/)_)
 - Post fields (_[docs](https://rad-theme-engine.ofco.cloud/docs/reference/the-site-object/#post-fields)_)
 - Menu rendering (_[docs](https://rad-theme-engine.ofco.cloud/docs/reference/rendermenu/)_)
-- Laravel Mix w/ Tailwind (_[docs](https://rad-theme-engine.ofco.cloud/docs/getting-started/laravel-mix/)_)
+- Pagination (_[docs](https://rad-theme-engine.ofco.cloud/docs/templating/paginationlinks/)_)
+- Laravel Mix w/ Tailwind (_[docs](https://rad-theme-engine.ofco.cloud/docs/getting-started/starter-themes/)_)
 
 Requirements for running this theme:
 - [Advanced Custom Fields](https://www.advancedcustomfields.com/)

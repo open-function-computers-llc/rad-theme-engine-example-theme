@@ -12,6 +12,7 @@
 @import './components/typography.css';
 @import './components/starburst.css';
 @import './components/button.css';
+@import './components/pagination.css';
 
 body {
     --font-sans: 'Roboto', sans-serif;

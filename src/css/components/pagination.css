@@ -1,0 +1,12 @@
+
+nav.pagination-links {
+    @apply flex items-center justify-center;
+
+    ul {
+        @apply flex items-center justify-center gap-4;
+
+        li > a {
+            @apply px-6 py-4 rounded-full bg-neutral-100 text-neutral-700 inline-block;
+        }
+    }
+}
